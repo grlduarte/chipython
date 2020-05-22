@@ -5,8 +5,8 @@ Created on 20-mai-2020
 from sys import argv
 import tkinter as tk
 
-from cpu import *
-from video import *
+from classes.cpu import *
+from classes.video import *
 
 def main(rom):
     rom = rom.upper()
