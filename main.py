@@ -3,10 +3,10 @@ gduarte@astro.ufsc.br
 Created on 20-mai-2020
 '''
 from sys import argv
-import tkinter as tk
+from tkinter import Tk
 
-from classes.cpu import *
-from classes.video import *
+from scripts.cpu import Processor
+from scripts.video import Video
 
 def main(rom):
     rom = rom.upper()

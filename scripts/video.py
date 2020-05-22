@@ -4,7 +4,7 @@ Created on 20-mai-2020
 '''
 
 from tkinter import *
-from cpu import Processor
+from scripts.cpu import Processor
 
 class Video(Canvas):
     def __init__(self, master, scale=5):
